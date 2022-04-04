@@ -467,4 +467,44 @@ template {
 .user__name {
   margin-left: 18px;
 }
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 700px;
+  }
+  .logo {
+    width: 132px;
+  }
+  .navbar__search {
+    margin-left: auto;
+  }
+  .navbar-menu__list {
+    padding-top: 22px;
+    padding-bottom: 23px;
+  }
+  .navbar-menu__link {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .navbar-menu-top {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .search__input {
+    width: 340px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 576px;
+    width: 92%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
