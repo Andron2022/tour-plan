@@ -10,7 +10,7 @@
         height: 100%
         object-fit: cover
 @media (max-width: 992px)
-  .container
+  .container, .newsletter-wrapper
     max-width: 700px
   .logo
     width: 132px
@@ -93,6 +93,12 @@
     width: 100%
   .map
     width: 100%
+  .newsletter
+    &-wrapper
+      max-width: 576px
+      width: 92%
+      flex-direction: column
+      align-items: start
 @media (max-width: 576px)
   .logo
     width: 99px
@@ -102,3 +108,18 @@
     &-grid
       &__slider
         margin-bottom: 20px
+  .newsletter
+    padding: 76px 20px 83px 20px
+    &-wrapper
+    &-title
+      font-weight: 300
+      font-size: 20px
+      line-height: 25px
+    &__title
+      margin-bottom: 37px
+      &__strong
+        font-weight: 600
+        font-size: 30px
+        line-height: 38px
+    .subscribe
+      max-width: 280px
