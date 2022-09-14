@@ -14,3 +14,10 @@ const reviewsSlider = new Swiper(".reviews-slider", {
     prevEl: ".reviews-slider__button--prev",
   },
 });
+const menuButton = document.querySelector(".menu-button");
+menuButton.addEventListener("click", function () {
+  console.log("Клик по копке меню");
+  document
+    .querySelector(".navbar-menu")
+    .classList.toggle("navbar-menu--visible");
+});
