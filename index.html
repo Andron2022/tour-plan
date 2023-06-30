@@ -578,33 +578,36 @@
       <!-- /.container -->
     </footer>
     <div class="modal">
-      <div class="modl__overlay"></div>
-      <!-- /.modl__overlay -->
+      <div class="modal__overlay"></div>
+      <!-- /.modal__overlay -->
       <div class="modal__dialog">
         <a href="#" class="modal__close">
-          <img src="img/close.svg" alt="Icon: " />
+          <img src="/img/close.svg" alt="icon: close" />
         </a>
-        <form action="send.php" method="POST" class="footer__form">
-          <input
-            type="text"
-            class="input footer__input"
-            placeholder="Your Full Name*"
-            name="name"
-          />
-          <input
-            type="text"
-            class="input footer__input"
-            placeholder="Phone Number*"
-            name="phone"
-          />
-          <textarea
-            class="footer__message"
-            name="message"
-            placeholder="Message"
-          ></textarea>
-          <button type="submit" class="button footer__button">Send</button>
-          <span class="footer__info">* Required Fields</span>
-        </form>
+        <div class="footer__contact-form">
+          <h3 class="footer__title footer__title--mb-3">Send us a message</h3>
+          <form action="send.php" method="POST" class="footer__form">
+            <input
+              type="text"
+              class="input footer__input"
+              placeholder="Your Full Name*"
+              name="name"
+            />
+            <input
+              type="text"
+              class="input footer__input"
+              placeholder="Phone Number*"
+              name="phone"
+            />
+            <textarea
+              class="footer__message"
+              name="message"
+              placeholder="Message"
+            ></textarea>
+            <button type="submit" class="button footer__button">Send</button>
+            <span class="footer__info">* Required Fields</span>
+          </form>
+        </div>
       </div>
       <!-- /.modal__dialog -->
     </div>
